@@ -1,0 +1,31 @@
+.body{
+    background-image: url(./fondo.png); 
+    background-size: cover;
+}
+
+.principal{
+    color: black; 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.err{
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+    color: white;
+}
+
+.fondoError{
+    background-image: url(./error.jpg); 
+    background-size: cover;
+}
+
+.fondoCorrecto{
+    background-image: url(./acierto.jpg); 
+    background-size: cover;
+}
+
+.bree{
+    font-family: 'Bree Serif', serif;
+    font-size: 2em;
+}

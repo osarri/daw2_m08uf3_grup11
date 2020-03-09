@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+	<link rel="stylesheet" href="css.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title>LOGIN</title>
+</head>
+<body class="p-3 mb-2 body">
+	<div class="container principal">
+	<img src="login.png" width="200px" height="200px">
+	<br><br>
+	<form action=login.php method=post>
+		<div class="form-group">
+			<label class="bree">USUARIO ADMINISTRADOR LDAP:</label>
+			<input type="text" class="form-control" name="user" placeholder="Usuario">
+		</div>
+		<div class="form-group">
+			<label class="bree">CONTRASEÑA:</label>
+			<input type="password" class="form-control" name="password" placeholder="Contraseña">
+		</div>
+		<input class="btn btn-dark" type="submit" value="ACCEDER">
+	</form>
+	</div>
+</body>
+</html>
